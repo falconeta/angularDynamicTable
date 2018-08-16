@@ -6,5 +6,12 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'angularDynamicTable';
+  dataTable = {
+    thLabel: ['nome', 'cognome', 'supercalifragilestichespiralitoso'],
+    tdData: [
+      ['vittorio', 'lo preiato', 1],
+      ['lucia', 'cenacchi', 3]
+    ]
+  };
+
 }
